@@ -1,0 +1,201 @@
+config:
+  path: first-directory/file.yaml
+  environment: staging
+colors: 
+  - name: red
+    hex: #ff0000
+  - name: green
+    hex: #00ff00
+  - name: blue
+    hex: #0000ff
+
+name:
+on:
+jobs:
+
+name:
+on:
+
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs"
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:jobs:
+
+name:
+on:
+jobs:
+
+name:
+on:
+jobs:
+
+name: config
+on: push
+
+name: my workflow
+on: push
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - echo "hello world"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - echo "hello world"
+
+
+
+
+
+
+
+name: my workflow
+on: push
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - echo "hello"
+
+
+
+
+
+name: my-workflow
+on: push
+jobs:
+  job-name:
+    runs-on: ubuntu-latest
+    steps:
+      - echo "Hello World"
+
+
+
+
+
+
+name: my workflow
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello"
+        
+
+
+
+
+
+name: my workflow
+on: push
+jobs:
+  myfirstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello-world"
