@@ -9,5 +9,9 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v7
-      - name: Printing Folders
-        run: ls
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: "20.x"
+      - name: Checking node version
+        run: node -v
