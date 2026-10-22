@@ -5,6 +5,9 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: react-app
     steps:
       - name: Checkout Code
         uses: actions/checkout@v7
@@ -13,5 +16,9 @@ jobs:
         with:
           node-version: "24.x"
       - name: Install Dependencies
-        run: npm ci
+        run: |
+          npm install --package-lock-only
+          npm ci
         working-directory: react-app
+      - name: Build
+        run: npm run build
