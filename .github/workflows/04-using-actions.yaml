@@ -6,6 +6,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: react-app
     steps:
       - name: Checkout Code
         uses: actions/checkout@v7
@@ -17,4 +20,5 @@ jobs:
         run: |
           npm install --package-lock-only
           npm ci
-        working-directory: react-app
+      - name: Run unit tests
+        run: npm run test
