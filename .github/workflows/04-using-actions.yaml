@@ -14,5 +14,7 @@ jobs:
         with:
           node-version: 24
       - name: Perform a clean install
-        run: npm ci
+        run: |
+          npm install --package-lock-only
+          npm ci
         working-directory: react-app
